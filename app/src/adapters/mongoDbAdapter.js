@@ -25,7 +25,7 @@
          * @param {Object} config mongoDb configuration details
          */
         constructor(mongo, config) {
-            const dbUri = 'mongodb://' + config.host + '/' + config.database;
+            const dbUri = `mongodb://${config.host}:${config.port}/${config.database}`;
             const dbOptions = {
                 useNewUrlParser: true
             }

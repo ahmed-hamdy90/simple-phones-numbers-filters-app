@@ -5,6 +5,7 @@
   },
   "databaseConfig": {
     "host": "db",
+    "port": "27017",
     "database": "simpleDB"
   }
 }
