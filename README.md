@@ -47,6 +47,7 @@ docker-compose build && docker-compose up
 ```shell
 docker exec -it nodeapp node dbSeeder.js
 ```
+- Open any browser and type next link: [localhost:3000/app](http://localhost:3000/app)
 
 #### How to run units tests
 ```shell
@@ -55,5 +56,5 @@ docker exec -it nodeapp npm test
 
 #### TODO:
 - Apply Pagination logic on Listing Phones numbers
-- Using Redis to caching listing phones numbers structure(i.e: not need apply validation process again)
+- Using Redis to caching listing phones numbers structure (i.e: Not need apply validation process every time, only at the first time)
 - Apply Unit tests on available services classes
