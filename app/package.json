@@ -1,0 +1,32 @@
+{
+  "name": "simple-phones-filter-app",
+  "version": "1.0.0",
+  "description": "simple application for listing and filters phones numbers",
+  "main": "app.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "./node_modules/mocha/bin/mocha test/**/*.test.js --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ahmed-hamdy90/simple-phones-numbers-filters-app.git"
+  },
+  "author": "ahmedhamdy20@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmed-hamdy90/simple-phones-numbers-filters-app/issues"
+  },
+  "homepage": "https://github.com/ahmed-hamdy90/simple-phones-numbers-filters-app.git#readme",
+  "dependencies": {
+    "express": "^4.16.1",
+    "mongoose": "^5.8.3",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
+  }
+}

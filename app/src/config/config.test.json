@@ -1,0 +1,10 @@
+{
+  "app": {
+    "port": "",
+    "host": ""
+  },
+  "databaseConfig": {
+    "host": "",
+    "database": ""
+  }
+}

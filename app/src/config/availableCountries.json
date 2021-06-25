@@ -1,0 +1,27 @@
+[
+  {
+    "id": "CAM",
+    "name": "Cameroon",
+    "phoneValidatorFactoryPath": "factories/cameroonPhoneValidatorFactory"
+  },
+  {
+    "id": "ETH",
+    "name": "Ethiopia",
+    "phoneValidatorFactoryPath": "factories/ethiopiaPhoneValidatorFactory"
+  },
+  {
+    "id": "MOR",
+    "name": "Morocco",
+    "phoneValidatorFactoryPath": "factories/moroccoPhoneValidatorFactory"
+  },
+  {
+    "id": "MOZ",
+    "name": "Mozambique",
+    "phoneValidatorFactoryPath": "factories/mozambiquePhoneValidatorFactory"
+  },
+  {
+    "id": "UGA",
+    "name": "Uganda",
+    "phoneValidatorFactoryPath": "factories/ugandaPhoneValidatorFactory"
+  }
+]
